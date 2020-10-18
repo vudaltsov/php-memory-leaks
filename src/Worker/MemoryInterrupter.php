@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App;
+namespace App\Worker;
 
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
