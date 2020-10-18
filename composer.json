@@ -1,21 +1,22 @@
 {
+    "name": "vudaltsov/php-memory-leaks",
+    "description": "PHP Memory Leaks. Demo project for YouTube stream https://youtu.be/NNMp-97rk9c",
     "type": "project",
     "license": "proprietary",
     "require": {
         "php": "^7.4",
         "ext-ctype": "*",
         "ext-iconv": "*",
-        "happy-inc/worker": "^0.4.1",
-        "symfony/console": "~5.1.3",
-        "symfony/dotenv": "~5.1.3",
+        "symfony/console": "~5.1.7",
+        "symfony/dotenv": "~5.1.7",
         "symfony/flex": "^1.9.1",
-        "symfony/framework-bundle": "~5.1.3",
-        "symfony/mailer": "~5.1.3",
-        "symfony/validator": "~5.1.3",
-        "symfony/yaml": "~5.1.3"
+        "symfony/framework-bundle": "~5.1.7",
+        "symfony/mailer": "5.1.3",
+        "symfony/validator": "~5.1.7",
+        "symfony/yaml": "~5.1.7"
     },
     "require-dev": {
-        "symfony/web-profiler-bundle": "~5.1.3"
+        "symfony/web-profiler-bundle": "~5.1.7"
     },
     "config": {
         "optimize-autoloader": true,
@@ -38,6 +39,8 @@
         "paragonie/random_compat": "2.*",
         "symfony/polyfill-ctype": "*",
         "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php74": "*",
+        "symfony/polyfill-php73": "*",
         "symfony/polyfill-php72": "*",
         "symfony/polyfill-php71": "*",
         "symfony/polyfill-php70": "*",
